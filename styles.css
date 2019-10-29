@@ -1,0 +1,153 @@
+body{
+     background-image: url(./images/bg.jpg);
+}
+ .left_sec h1{
+     float: right;
+     color: white;
+     font-weight: bold;
+     padding-top: 240px;
+     width: 74%;
+}
+ .left_sec p{
+     float: right;
+     width: 74%;
+     color: white;
+     color: #FFECE8;
+     font-weight: bold;
+}
+ .right_sec{
+     padding: 20px;
+     background: white;
+     width: 64%;
+     border-radius: 5px;
+     box-shadow: 0 4px 0px 1px #DB6668;
+}
+ .offer{
+     width: 64%;
+     color:white;
+     background: #5D54A3;
+     margin-top: 150px;
+     padding: 15px;
+     border-radius: 5px;
+     box-shadow: 0 4px 0px 1px #DB6668;
+}
+ .form-control {
+     font-weight: bold;
+     width:100%;
+}
+ .btn-primary{
+     background: #44CC8A;
+}
+ .btn-block{
+     width: 100%;
+}
+ .agree_btn{
+     font-size: 9px;
+     color: grey;
+     padding-top: 15px;
+}
+ .right_sec .agree_btn span {
+     font-weight: bold;
+     color:#EB7E84;
+}
+ .form-horizontal .form-group {
+     margin-right: 0px;
+     margin-left: 0px;
+}
+ #error1{
+     color:red;
+     padding-left: 110px;
+}
+ #error2{
+     color:red;
+     padding-left :110px;
+}
+ #error3{
+     color:red;
+     padding-left: 100px;
+}
+ #error4{
+     color:red;
+     padding-left: 110px;
+}
+ body{
+     overflow-x: hidden;
+}
+ @media(min-width: 728px) and (max-width: 1024px){
+     .left_sec h1 {
+         width:100%;
+         text-align: center;
+         color: white;
+         font-weight: bold;
+         padding-top: 40px;
+    }
+     .left_sec p {
+         text-align: center;
+         padding-left_sec: 18px;
+         padding-top: 10px;
+         font-size: 17px;
+         width: 100%;
+    }
+     .offer{
+         font-size: 22px;
+         width: 100%;
+         margin-top: 40px;
+         padding: 22px;
+         border-radius: 5px;
+         box-shadow: 0 4px 0px 1px #DB6668;
+    }
+     .right_sec{
+         width: 100%;
+         margin-top: 20px;
+         margin-bottom: 50px;
+    }
+     .btn-block{
+         width: 100%;
+         padding-top: 15px;
+         padding-bottom: 15px 
+    }
+     .agree_btn{
+         font-size: 14px;
+         color: grey;
+         padding-top: 15px;
+    }
+}
+ @media(min-width: 320px) and (max-width: 580px){
+     .left_sec h1 {
+         width:100%;
+         text-align: center;
+         color: white;
+         font-weight: bold;
+         padding-top: 40px;
+    }
+     .left_sec p {
+         text-align: center;
+         padding-left_sec: 18px;
+         padding-top: 10px;
+         font-size: 17px;
+         width: 100%;
+    }
+     .offer{
+         font-size: 22px;
+         width: 100%;
+         margin-top: 40px;
+         padding: 22px;
+         border-radius: 5px;
+         box-shadow: 0 4px 0px 1px #DB6668;
+    }
+     .right_sec{
+         width: 100%;
+         margin-top: 20px;
+         margin-bottom: 50px;
+    }
+     .btn-block{
+         width: 100%;
+         padding-top: 15px;
+         padding-bottom: 15px 
+    }
+     .agree_btn{
+         font-size: 14px;
+         color: grey;
+         padding-top: 15px;
+    }
+}
